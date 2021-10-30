@@ -1,5 +1,5 @@
 {
-  "name": "webtool-template",
+  "name": "webtool-quill",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/josudoey/template.git"
+    "url": "git+https://github.com/josudoey/webtool-quill.git"
   },
   "author": "Joey Fang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/josudoey/template/issues"
+    "url": "https://github.com/josudoey/webtool-quill/issues"
   },
-  "homepage": "https://github.com/josudoey/template#readme",
+  "homepage": "https://github.com/josudoey/webtool-quill#readme",
   "devDependencies": {
     "eslint": "^8.0.1",
     "eslint-config-standard": "^16.0.3",

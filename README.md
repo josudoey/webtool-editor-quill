@@ -1,9 +1,8 @@
-# webtool-template
+# webtool-quill
 
 [![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
 
-webtool template
 
 ### Demo
 
- [Link](https://josudoey.github.io/webtool-editor-quill/)
+ [Link](https://josudoey.github.io/webtool-quill/)

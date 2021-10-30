@@ -8,6 +8,7 @@ import { render, staticRenderFns } from './render.pug'
 import './mathjax.js'
 import './highlightjs.js'
 Quill.register(BlobImageBlot)
+Quill.imports['formats/image'] = BlobImageBlot
 Quill.imports['formats/code-block'].className = ''
 
 const QuillMode = 'quill'
@@ -52,10 +53,11 @@ export default {
               }
               const quill = this.quill
               // see https://quilljs.com/docs/api/#getselection
-              const { index } = self.quill.getSelection()
+              const { index } = quill.getSelection()
               const input = document.createElement('input')
               input.setAttribute('type', 'file')
               input.setAttribute('accept', 'image/*')
+              input.setAttribute('multiple', '')
               input.onchange = () => {
                 for (const file of input.files) {
                   const src = URL.createObjectURL(file)
