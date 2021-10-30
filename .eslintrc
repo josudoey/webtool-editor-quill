@@ -1,7 +1,7 @@
 {
   "extends": "standard",
-  "parser": "esprima",
   "parserOptions": {
+    "parser": "esprima",
     "allowImportExportEverywhere": true
   }
 }
